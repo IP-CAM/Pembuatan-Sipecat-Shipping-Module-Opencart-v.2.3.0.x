@@ -28,7 +28,8 @@ class ControllerExtensionShippingsicepat extends Controller {
 		$data['entry_tax_class'] = $this->language->get('entry_tax_class');
 		$data['entry_status'] = $this->language->get('entry_status');
 		$data['entry_sort_order'] = $this->language->get('entry_sort_order');
-		$data['entry_api_key'] = $this->language->get('entry_api_key');				$data['entry_origin'] = $this->language->get('entry_origin');
+		$data['entry_api_key'] = $this->language->get('entry_api_key');				
+		$data['entry_origin'] = $this->language->get('entry_origin');
 
 		$data['help_rate'] = $this->language->get('help_rate');
 
@@ -88,7 +89,14 @@ class ControllerExtensionShippingsicepat extends Controller {
 			$data['sicepat_tax_class_id'] = $this->request->post['sicepat_tax_class_id'];
 		} else {
 			$data['sicepat_tax_class_id'] = $this->config->get('sicepat_tax_class_id');
-		}				if (isset($this->request->post['sicepat_origin'])) {			$data['sicepat_origin'] = $this->request->post['sicepat_origin'];		} else {			$data['sicepat_origin'] = $this->config->get('sicepat_origin');		}				$data['origins'] = json_decode(file_get_contents(HTTP_CATALOG."/catalog/view/javascript/sicepat_origin.json"),true);
+		}				
+
+		if (isset($this->request->post['sicepat_origin'])) {			
+			$data['sicepat_origin'] = $this->request->post['sicepat_origin'];		
+		} else {			
+			$data['sicepat_origin'] = $this->config->get('sicepat_origin');		
+		}				
+		$data['origins'] = json_decode(file_get_contents(HTTP_CATALOG."/catalog/view/javascript/sicepat_origin.json"),true);
 		
 		$this->load->model('localisation/tax_class');
 
