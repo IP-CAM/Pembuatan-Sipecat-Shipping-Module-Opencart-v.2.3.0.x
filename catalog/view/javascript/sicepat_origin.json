@@ -1,0 +1,98 @@
+[
+	{
+		"origin_name": "Jakarta",
+		"origin_code": "CGK"
+	},
+	{
+		"origin_name": "Tangerang",
+		"origin_code": "TGR"
+	},
+	{
+		"origin_name": "Bekasi",
+		"origin_code": "BKI"
+	},
+	{
+		"origin_name": "Depok",
+		"origin_code": "DPK"
+	},
+	{
+		"origin_name": "Bogor",
+		"origin_code": "BOO"
+	},
+	{
+		"origin_name": "Semarang",
+		"origin_code": "SRG"
+	},
+	{
+		"origin_name": "Surabaya",
+		"origin_code": "SUB"
+	},
+	{
+		"origin_name": "Medan",
+		"origin_code": "MES"
+	},
+	{
+		"origin_name": "Bandung",
+		"origin_code": "BDO"
+	},
+	{
+		"origin_name": "Yogyakarta",
+		"origin_code": "JOG"
+	},
+	{
+		"origin_name": "Batam",
+		"origin_code": "BTH"
+	},
+	{
+		"origin_name": "Cilegon",
+		"origin_code": "CLG"
+	},
+	{
+		"origin_name": "Denpasar",
+		"origin_code": "DPS"
+	},
+	{
+		"origin_name": "Malang",
+		"origin_code": "MLG"
+	},
+	{
+		"origin_name": "Solo",
+		"origin_code": "SOC"
+	},
+	{
+		"origin_name": "Jember",
+		"origin_code": "JBR"
+	},
+	{
+		"origin_name": "Jepara",
+		"origin_code": "JPR"
+	},
+	{
+		"origin_name": "Magelang",
+		"origin_code": "MGL"
+	},
+	{
+		"origin_name": "Sukabumi",
+		"origin_code": "SMI"
+	},
+	{
+		"origin_name": "Banjarmasin",
+		"origin_code": "BDJ"
+	},
+	{
+		"origin_name": "Palembang",
+		"origin_code": "PLM"
+	},
+	{
+		"origin_name": "Pekanbaru",
+		"origin_code": "PKU"
+	},
+	{
+		"origin_name": "Balikpapan",
+		"origin_code": "BPN"
+	},
+	{
+		"origin_name": "Makassar",
+		"origin_code": "UPG"
+	}
+]
