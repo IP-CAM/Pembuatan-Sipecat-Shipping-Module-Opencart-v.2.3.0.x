@@ -106,11 +106,8 @@ class ControllerExtensionShippingsicepat extends Controller {
 			$data['sicepat_api_key'] = $this->request->post['sicepat_api_key'];
 		} else {
 			$data['sicepat_api_key'] = $this->config->get('sicepat_api_key');
-		}				if (isset($this->request->post['sicepat_api_key'])) {
-			$data['sicepat_api_key'] = $this->request->post['sicepat_api_key'];
-		} else {
-			$data['sicepat_api_key'] = $this->config->get('sicepat_api_key');
 		}				
+		
 		if (isset($this->request->post['sicepat_status'])) {
 			$data['sicepat_status'] = $this->request->post['sicepat_status'];
 		} else {
