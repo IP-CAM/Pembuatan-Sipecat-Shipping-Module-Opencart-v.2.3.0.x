@@ -47,11 +47,6 @@ class ModelExtensionShippingsicepat extends Model {
 					     					$description = $value->description ;
 					     					$cost =$value->tariff;
 					     					break;
-				     					case 'COD':
-					     					$type = $value->service ;
-					     					$description = $value->description ;
-					     					$cost =$value->tariff;
-					     					break;
 					     				
 					     				default:
 					     					$type = $value->service ;
@@ -81,28 +76,10 @@ class ModelExtensionShippingsicepat extends Model {
 					     	
 					     }
 					     
-					    
-					     
-					     // if ($data[0] >= $weight) {	
-					     // 	if (isset($data[1])) {											
-					     // 	$cost = $data[1];
-					     // }
-					     
-					     // break;
-					 // }											
 					 }
 					
 				}								
 
-				// if ((string)$cost != '') {
-				// 	$quote_data['sicepat_' . $result['geo_zone_id']] = array(
-				// 		'code'         => 'sicepat.sicepat_' . $result['geo_zone_id'],
-				// 		'title'        => $result['name'] . '  (' . $this->language->get('text_weight') . ' ' . $this->weight->format($weight, $this->config->get('config_weight_class_id')) . ')',
-				// 		'cost'         => $cost,
-				// 		'tax_class_id' => $this->config->get('sicepat_tax_class_id'),
-				// 		'text'         => $this->currency->format($this->tax->calculate($cost, $this->config->get('sicepat_tax_class_id'), $this->config->get('config_tax')), $this->session->data['currency'])
-				// 	);
-				// }
 			}
 		}
 
@@ -133,9 +110,6 @@ class ModelExtensionShippingsicepat extends Model {
 	            'api-key: '. $apiKey,
 	        );
 
-
-
-	        // $headers[] = "api-key : ". $this->config->get('sicepat_api_key') ;
 	        // if(!empty($extraHeaders)) $headers = array_merge($headers, $extraHeaders);
 
 	        $url = "http://api.sicepat.com/customer/tariff" . $params ;
