@@ -16,7 +16,7 @@ $_['entry_sort_order'] = 'Sort Order';
 $_['entry_api_key']    = 'Api Key';$_['entry_origin']    = 'Origin';
 
 // Help
-$_['help_rate']        = 'Format pengisian adalah "Nama Kota:kode_destinasi_sicepat,<br>Contoh: <i>Serpong Tangerang Selatan:TGR0001,</i>';
+$_['help_rate']        = 'Format pengisian adalah "Nama Kota:kode_destinasi_sicepat",<br>Contoh: <i>Serpong Tangerang Selatan:TGR0001,</i>';
 
 // Error
 $_['error_permission'] = 'Warning: Anda tidak memiliki akses untuk memodifikasi  SICEPAT Shipping!';
